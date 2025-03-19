@@ -1,0 +1,13 @@
+name: dartz_extended
+description: DartZ Extended
+version: 1.0.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  dartz: ^0.10.1
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.15
