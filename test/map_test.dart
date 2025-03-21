@@ -69,7 +69,6 @@ void main() {
 
   group('Asynchronous', () {
     // Arrange
-
     Future<Either<Unit, int>> fn([int number = 0]) async =>
         Future.delayed(duration, () => Right(number + 1));
 
